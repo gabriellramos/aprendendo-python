@@ -10,6 +10,11 @@ def five_part(num):
     else:
         return "Nao eh um numero"
 
+#testes manuais 
+print(five_part(5.0))
+print(five_part(5))
+print(five_part(5.455646464))
+print(five_part("5"))
+print(five_part('5.0'))
 
-print (five_part(5.0))
-print (five_part("oi"))
+

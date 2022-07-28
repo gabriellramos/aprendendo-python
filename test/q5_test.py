@@ -1,6 +1,6 @@
 import pytest
 from ..list4.q5 import five_part
-
+#resolver
 # erro ao importar
 def test_five_part_incorrect():
     assert five_part(10.12546) == 5

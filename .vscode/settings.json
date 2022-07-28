@@ -10,5 +10,8 @@
         "./test",
         "-p",
         "*_test.py"
+    ],
+    "python.analysis.extraPaths": [
+        "./list4"
     ]
 }

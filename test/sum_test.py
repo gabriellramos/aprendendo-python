@@ -1,7 +1,6 @@
 """
     Criar uma função soma e usar testes com pytest
 """
-
 import pytest
 
 def sum (a , b):
@@ -16,3 +15,4 @@ def test_validate_type_sum():
     
 def teste_sum3():
     assert sum('a','b') == "ab"
+

@@ -1,14 +1,13 @@
 import pytest
-import numbers
-#from ..list4.q5 import five_part
-#from ..list4 import q5
-#resolver
+import sys
+import os
+# adding Folder_2 to the system path
+sys.path.append(os.path.join('C:/', 'Users', 'gabri', 'OneDrive', 'Documents', 'GitHub', 'aprendendo-python', 'q5'))
 
-def five_part(num):
-    if (isinstance(num, numbers.Number)):
-        return num/5.0
-    else:
-        return "Nao eh um numero"
+# importing the add and odd_even
+# function
+from q5 import five_part
+#resolver
 
 # erro ao importar
 def test_five_part_int():
@@ -18,4 +17,6 @@ def test_five_part_success():
     assert five_part(10.12546) == 2.025092
 
 def test_five_part_only_numbers():
-    assert five_part("1") == "Nao eh um numero"
+    assert five_part("1") == 0.0
+
+print(five_part(25))

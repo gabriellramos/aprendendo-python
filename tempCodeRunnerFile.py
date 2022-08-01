@@ -1,2 +1,2 @@
-from list4.q5 import *
+from test.q5 import *
 from test import *

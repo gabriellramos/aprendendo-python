@@ -1,12 +1,14 @@
-<<<<<<< HEAD
-def 
-=======
+
 """
     funcao para somar os algarismos de um numero:
     Ex.: 251 = 2+5+1 = 8
 """
 
-def soma_algarismos(num:int):
+def soma_algarismos(num:int) -> int:
+    return sum(int(i) for i in str(num))
+    
+
+def new_func(num):
     casa_decimal = 1
     #1, 10, 100, 1000, 10000, 10000
     while(num//casa_decimal!=0):
@@ -29,4 +31,3 @@ def soma_algarismos(num:int):
 
 #num = int(input("Digite um numero: "))
 #print("Soma algarismos do valor {} = {}".format(num, soma_algarismos(num)))
->>>>>>> bfe15bf944b0655d6517f1d3163db42b0edf413c

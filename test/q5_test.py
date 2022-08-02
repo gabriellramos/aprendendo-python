@@ -18,5 +18,3 @@ def test_five_part_success():
 
 def test_five_part_only_numbers():
     assert five_part("1") == 0.0
-
-print(five_part(25))

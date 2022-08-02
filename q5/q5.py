@@ -14,7 +14,7 @@ def five_part(num: float) -> float:
 #print(five_part(5.0))
 #print(five_part(5))
 #print(five_part(5.455646464))
-print(five_part("5"))
-print(five_part('5.0'))
+#print(five_part("5"))
+#print(five_part('5.0'))
 
 

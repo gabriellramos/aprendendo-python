@@ -1,1 +1,0 @@
-casa_decimal = 10000
